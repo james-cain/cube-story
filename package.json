@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/james-cain/cube-story#readme",
   "dependencies": {
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-template-compiler": "2.6.10"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
@@ -33,6 +34,8 @@
     "@storybook/vue": "^5.0.11",
     "babel-loader": "^8.0.5",
     "babel-preset-vue": "^2.0.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "vue-loader": "^15.7.0"
   }
 }

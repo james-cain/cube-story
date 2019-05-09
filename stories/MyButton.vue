@@ -1,3 +1,4 @@
+<script>
 export default {
   name: 'my-button',
 
@@ -27,3 +28,4 @@ export default {
     },
   },
 };
+</script>
