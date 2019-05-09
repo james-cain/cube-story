@@ -1,0 +1,38 @@
+{
+  "name": "cube-story",
+  "version": "1.0.0",
+  "description": "cube-ui's storybook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/james-cain/cube-story.git"
+  },
+  "keywords": [
+    "cube-ui",
+    "storybook"
+  ],
+  "author": "reyshieh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/james-cain/cube-story/issues"
+  },
+  "homepage": "https://github.com/james-cain/cube-story#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@storybook/addon-actions": "^5.0.11",
+    "@storybook/addon-links": "^5.0.11",
+    "@storybook/addons": "^5.0.11",
+    "@storybook/vue": "^5.0.11",
+    "babel-loader": "^8.0.5",
+    "babel-preset-vue": "^2.0.2",
+    "vue-loader": "^15.7.0"
+  }
+}
